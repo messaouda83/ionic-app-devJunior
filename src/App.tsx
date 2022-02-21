@@ -39,6 +39,9 @@ import '@ionic/react/css/display.css';
 
 /* Theme variables */
 import './theme/variables.css';
+import { HomePage } from './pages/HomePage';
+import { Contact } from './pages/Contact';
+import { Apropos } from './pages/Apropos';
 
 setupIonicReact();
 
@@ -50,6 +53,9 @@ const App: React.FC = () => (
           <IonReactRouter>
               <IonRouterOutlet>
                 <Route path="/login" component={Login} exact={true} />
+                <Route path="/" component={HomePage} exact={true} />
+                <Route path="/contact" component={Contact} exact={true} />
+                <Route path="/apropos" component={Apropos} exact={true} />
               </IonRouterOutlet>
           </IonReactRouter>
       </IonContent>
