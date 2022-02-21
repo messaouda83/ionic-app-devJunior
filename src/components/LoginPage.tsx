@@ -16,9 +16,9 @@ export const Login: React.FC =() => (
             <IonItem  lines='none'>
                 <IonButton fill='clear' slot='end'>Mot de passe oublié ?</IonButton>
             </IonItem>
-            <IonButton  fill='outline' shape='round' expand='block'>connexion</IonButton>
+            <IonButton shape='round' expand='block'>connexion</IonButton>
             <br></br>
-            <IonButton shape='round' expand='block'>inscription</IonButton>
+            <IonButton fill='outline' shape='round' expand='block'>inscription</IonButton>
         </div>
     </IonContent>
 );

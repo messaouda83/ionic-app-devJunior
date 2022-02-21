@@ -10,15 +10,15 @@ export const MenuMobile: React.FC = () => {
     
     <IonMenu contentId='first'>
       <IonHeader>
-        <IonToolbar color="danger">
+        <IonToolbar color="success">
           <IonTitle></IonTitle>
         </IonToolbar>
       </IonHeader>
       <IonContent>
         <IonList>
-          <IonItem>HOME</IonItem>
-          <IonItem>À PROPOS</IonItem>
-          <IonItem>CONTACT</IonItem>
+          <IonItem href={"/"}>HOME</IonItem>
+          <IonItem href={"/apropos"}>À PROPOS</IonItem>
+          <IonItem href={"/contact"}>CONTACT</IonItem>
           
         </IonList>
       </IonContent>
