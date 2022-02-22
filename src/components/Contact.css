@@ -1,9 +1,29 @@
+.bg-contact {
+    --background: url(../assets/bg-contact.jfif) 0 0/100% 100% no-repeat;
+    --color: rgba(255, 255, 255, 0.747);
+    
+  }
 .form-contact {
-    --width:200px;
-   --height:300px;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    width: 30%;
+    margin: 20px auto;
+    padding-top: 10px;
 
+}
+.ion-toolbar {
+    text-align: center;
+    background-color: blue;
+}
+.ion-text-area,
+.ion-input {
+    border: 1px solid lightgreen;
+    margin-bottom: 12px;
+    color:black;
+    
+}
+.ion-text-area,
+.ion-input:hover {
+    background-color: rgba(0,0,0,.05);
+}
+.ion-title {
+    margin-bottom: 8px;
 }
