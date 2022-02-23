@@ -18,7 +18,7 @@ import { IonReactRouter } from '@ionic/react-router';
 // import Tab3 from './pages/Tab3';
 import {MenuMobile} from './components/Menu';
 import {FooterMobile} from './components/Footer';
-import {Login} from './components/LoginPage';
+import Login from './components/LoginPage';
 
 
 /* Core CSS required for Ionic components to work properly */

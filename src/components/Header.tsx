@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { IonMenu, IonHeader, IonToolbar, IonTitle, IonImg, IonContent, IonList, IonItem, IonRouterLink, IonRouterOutlet, IonButton, IonButtons, IonMenuButton, IonMenuToggle } from '@ionic/react';
- import logo from '../assets/logo.png';
+import logo from '../assets/logo.png';
 // import { MainPage } from './Main';
 // import { Login } from './LoginePage';
 
